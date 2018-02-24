@@ -1,0 +1,22 @@
+{
+    "essid": "myessid",
+    "password": "supersecret",
+    "mqtt": {
+        "broker": "mqtt.example.com",
+	"port": 1883,
+	"user": "room_sensor",
+	"password": "evenmoresupersecret"
+    },
+    "motion": {
+        "name": "Example Motion",
+	"entity_id": "example_motion"
+    },
+    "temperature": {
+        "name": "Example Temperature",
+	"entity_id": "example_temperature"
+    },
+    "humidity": {
+        "name": "Example Humidity",
+	"entity_id": "example_humidity"
+    }
+}
